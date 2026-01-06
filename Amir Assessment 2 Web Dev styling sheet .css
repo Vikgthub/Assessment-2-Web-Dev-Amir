@@ -1,0 +1,1332 @@
+
+
+
+
+
+
+
+/* add the basic body styling  */
+
+body { margin: 0; font-family: sans-serif; }
+
+nav { background-color: black; color: white; padding: 10px; position: fixed; width: 100%; top: 0; }
+
+nav ul { list-style-type: none; margin: 0; padding: 0; }
+
+nav ul li { display: inline; margin-right: 20px; }
+
+nav ul li a { color: white; text-decoration: none; }
+
+
+section { padding: 100px 20px 50px; min-height: 70vh; }
+
+
+
+
+
+html { scroll-behavior: smooth; } /* for the scrolling, also add behaviour as well */
+
+
+
+
+
+
+
+
+
+
+
+/* heres my nav bar styling */
+/* just add a basic styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+}
+nav li {
+    color: white;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+/* add smooth scroll behaviour  */
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+/* here is the styling for the button */
+.space-btn {
+ 
+
+  padding: 12px 30px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.4s ease; 
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+
+/* add a hover effect */
+.space-btn:hover {
+  background-color: #ffffff; 
+  color: #000000;            
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4); 
+  transform: translateY(-3px); 
+}
+
+
+.space-btn:active {
+  transform: translateY(-1px);
+}
+
+
+
+
+
+
+
+
+/* add the styling for the home section */
+
+#home {
+    background-image: url('/Users/amir/Pictures/Photos Library.photoslibrary/originals/4/4932D256-E8E7-4406-B241-D39097552524.png'); 
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    min-width: 100vh; 
+}
+
+
+
+.FISTPAGE {
+    font-size: 120px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* here i have added coding for auto rotating the images */
+
+/* add the size of the images */
+.autoRotate{
+  width: 450px;
+  height: 450px;
+}
+
+/* then add the animation effects */
+.autoRotate{
+  animation: autoRotateAnimation; 
+  animation-timeline: view();
+}
+
+/* once you scroll the screen, it should complete the rotation to 360 degrees */
+@keyframes autoRotateAnimation{
+  from{
+    transform: rotate(Odeg);
+  }
+  
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.sltextspace {
+  color: white;
+  font-size: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* for te container basic styling */
+/* add basic coding to the section container */
+.p-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000; 
+  color: white;
+  padding: 50px;
+  gap: 40px;
+}
+
+/* add styling to the image */
+.image-boxx img {
+  width: 300px;
+  height: auto;
+}
+
+/* create the vertical line */
+.vertical-linee {
+  width: 1px;
+  height: 350px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* add the max width to the text box */
+.text-boxx {
+  max-width: 450px;
+}
+
+.text-boxx h1 {
+  font-size: 70px;
+  margin: 0;
+  letter-spacing: 8px;
+}
+
+.text-boxx h3 {
+  font-size: 18px;
+  color: #888; 
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+}
+
+.descriptionn {
+  font-size: 13px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  color: #ccc;
+}
+
+.data-pointz p {
+  font-size: 14px;
+  margin: 8px 0;
+  letter-spacing: 1px;
+}
+
+/* above code will be used multiple times for different objects in space */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* now we make styling for those back ground images with text on top */
+
+
+/* give your class (each class in different parts of the page wil have different names, and the styling code will be rewritten for all of them) */
+.solarsys-section { 
+ 
+    /* add you background image and darken it */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('/Users/amir/Pictures/Photos Library.photoslibrary/originals/F/F1B15E0A-28FA-43E0-8474-524A766858F4.jpeg');
+  
+  /* cover the backgrounf section completely */
+  background-size: cover;        
+  background-position: center;  
+  height: 100vh;                 
+  display: flex;                 
+  align-items: center;           
+  justify-content: center;      
+  color: white;
+  text-align: center;            
+}
+
+/* give coding for the content  */
+.solarsy-content {
+  max-width: 800px;
+  padding: 20px;
+}
+
+/* the subtitles */
+.subtitlee {
+  font-size: 14px;
+  letter-spacing: 5px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+/* heading */
+h1 {
+  font-size: 80px;
+  letter-spacing: 15px;
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* the description */
+.descriptiona {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+}
+
+/* the stats */
+.stat-roww {
+  margin-top: 30px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #888;
+}
+
+/* and an additional dot to seperate stats */
+.dott {
+  margin: 0 15px;
+  color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* we will once again repeat the same for the different sections */
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+.oortcloud-section {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('/Users/amir/Pictures/Photos Library.photoslibrary/resources/renders/4/4DAE6940-1436-4735-8A1A-DEE848A0360E_1_201_a.jpeg');
+  
+  background-size: cover;        
+  background-position: center;   
+  height: 100vh;                 
+  display: flex;                 
+  align-items: center;           
+  justify-content: center;       
+  color: white;
+  text-align: center;           
+}
+
+.oortcloud-contet {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.subtitle2 {
+  font-size: 14px;
+  letter-spacing: 5px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+ h1 {
+  font-size: 80px;
+  letter-spacing: 15px;
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.descriptionb {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+}
+
+.stat-roww2 {
+  margin-top: 30px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #888;
+}
+
+.dott2 {
+  margin: 0 15px;
+  color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.outerspace-section {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('/Users/amir/Pictures/Photos Library.photoslibrary/originals/9/9C481A19-E347-40B7-BDF0-2F54C274B116.jpeg');
+  
+  background-size: cover;        
+  background-position: center;   
+  height: 100vh;                 
+  display: flex;                
+  align-items: center;           
+  justify-content: center;      
+  color: white;
+  text-align: center;            
+}
+
+.outerspace-contet {
+  max-width: 800px;
+  padding: 20px;
+}
+
+
+ h1 {
+  font-size: 80px;
+  letter-spacing: 15px;
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.descriptionc {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+}
+
+.stat-roww3 {
+  margin-top: 30px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+.Alphacentauri-section {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('/Users/amir/Pictures/Photos Library.photoslibrary/originals/7/761B4BDA-BC6A-4846-B033-2FAC8A92EFF3.jpeg');
+  
+  background-size: cover;       
+  background-position: center;   
+  height: 100vh;                
+  display: flex;               
+  align-items: center;         
+  justify-content: center;      
+  color: white;
+  text-align: center;  
+}
+
+.Alphacentauri-content {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.Alphacentauri-subtitle {
+  font-size: 14px;
+  letter-spacing: 5px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: 15px;
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.Alphacentauri-descriptiona {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+}
+
+.Alphacentauri-stat-roww {
+  margin-top: 30px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #888;
+}
+
+.Alphacentauri-dott {
+  margin: 0 15px;
+  color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Luhman16-section {
+ 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('/Users/amir/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/C/C2F3C80D-8CD2-4B2D-9993-A4FEEB40DC27_4_5005_c.jpeg');
+  
+  background-size: cover;      
+  background-position: center;  
+  height: 100vh;                
+  display: flex;                 
+  align-items: center;           
+  justify-content: center;     
+  color: white;
+  text-align: center;          
+}
+
+.Luhman16-content {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.Luhman16-subtitle {
+  font-size: 14px;
+  letter-spacing: 5px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: 15px;
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.Luhman16-descriptiona {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+}
+
+.Luhman16-stat-roww {
+  margin-top: 30px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #888;
+}
+
+.Luhman16-dott {
+  margin: 0 15px;
+  color: #555;
+}
+
+
+
+
+
+
+
+
+
+.Wolf359-section {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('/Users/amir/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/A/A1E892D0-EE62-4A7D-9E27-AF8B8F21A959_4_5005_c.jpeg');
+  
+  background-size: cover;        
+  background-position: center;  
+  height: 100vh;                 
+  display: flex;                
+  align-items: center;          
+  justify-content: center;      
+  color: white;
+  text-align: center;          
+}
+
+.Wolf359-conten {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.Wolf359-subtitle {
+  font-size: 14px;
+  letter-spacing: 5px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: 15px;
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.Wolf359-descriptiona {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+}
+
+.Wolf359-stat-roww {
+  margin-top: 30px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #888;
+}
+
+.Wolf359-dott {
+  margin: 0 15px;
+  color: #555;
+}
+
+
+
+
+
+
+
+.Sirius86-section {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('/Users/amir/Pictures/Photos Library.photoslibrary/resources/renders/6/6ADEA423-0ABF-46E1-A2AC-86F864E413C1_1_201_a.jpeg');
+  
+  background-size: cover;        
+  background-position: center;   
+  height: 100vh;                
+  display: flex;                 
+  align-items: center;           
+  justify-content: center;       
+  color: white;
+  text-align: center;            
+}
+
+.Sirius86-content {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.Sirius86-subtitle {
+  font-size: 14px;
+  letter-spacing: 5px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: 15px;
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.Sirius86-descriptiona {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+}
+
+.Sirius86-stat-roww {
+  margin-top: 30px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #888;
+}
+
+.Sirius86-dott {
+  margin: 0 15px;
+  color: #555;
+}
+
+
+
+
+
+
+.TRAPPIST1-section {
+ 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('/Users/amir/Pictures/Photos Library.photoslibrary/originals/5/57CE7A55-5D4E-4C9F-A15D-6E91745E4746.jpeg');
+  
+  background-size: cover;        
+  background-position: center;   
+  height: 100vh;                 
+  display: flex;                
+  align-items: center;          
+  justify-content: center;      
+  color: white;
+  text-align: center;          
+}
+
+.TRAPPIST1-content {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.TRAPPIST1-subtitle {
+  font-size: 14px;
+  letter-spacing: 5px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: 15px;
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.TRAPPIST1-descriptiona {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+}
+
+.TRAPPIST1-stat-roww {
+  margin-top: 30px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #888;
+}
+
+.TRAPPIST1-dott {
+  margin: 0 15px;
+  color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+.MILKYWAY-section {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('/Users/amir/Pictures/Photos Library.photoslibrary/originals/3/33095AF4-CEA8-4201-8150-6A3512B3EE2E.jpeg');
+  
+  background-size: cover;       
+  background-position: center;   
+  height: 100vh;                
+  display: flex;                
+  align-items: center;   
+  justify-content: center;   
+  color: white;
+  text-align: center;   
+}
+
+.MILKYWAY-content {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.MILKYWAY-subtitle {
+  font-size: 14px;
+  letter-spacing: 5px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: 15px;
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.MILKYWAY-descriptiona {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+}
+
+.MILKYWAY-stat-roww {
+  margin-top: 30px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #888;
+}
+
+.MILKYWAY-dott {
+  margin: 0 15px;
+  color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+.ANDROMEDA-section {
+ 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('/Users/amir/Pictures/Photos Library.photoslibrary/originals/4/48CB409A-C89C-4424-90A1-6368F8D11A0B.jpeg');
+  
+  background-size: cover;        
+  background-position: center;   
+  height: 100vh;                
+  display: flex;                 
+  align-items: center;        
+  justify-content: center;     
+  color: white;
+  text-align: center;         
+}
+
+.ANDROMEDA-content {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.ANDROMEDA-subtitle {
+  font-size: 14px;
+  letter-spacing: 5px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: 15px;
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.ANDROMEDA-descriptiona {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+}
+
+.ANDROMEDA-stat-roww {
+  margin-top: 30px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #888;
+}
+
+.ANDROMEDA-dott {
+  margin: 0 15px;
+  color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+.theobservableuniverse-section {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                    url('/Users/amir/Pictures/Photos Library.photoslibrary/resources/renders/3/369C1D7C-B390-4192-AAE6-E4E1DE99EE6A_1_201_a.jpeg');
+  
+  background-size: cover;       
+  background-position: center;   
+  height: 100vh;               
+  display: flex;               
+  align-items: center;         
+  justify-content: center;      
+  color: white;
+  text-align: center;          
+}
+
+.theobservableuniverse-content {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.theobservableuniverse-subtitle {
+  font-size: 14px;
+  letter-spacing: 5px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: 15px;
+  margin: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.theobservableuniverse-descriptiona {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;
+}
+
+.theobservableuniverse-stat-roww {
+  margin-top: 30px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #888;
+}
+
+.theobservableuniverse-dott {
+  margin: 0 15px;
+  color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-card-section {
+  background-color: #000;
+}
+
+
+
+/* add card styling */
+.card {
+  width: 800px; 
+  height: 180px;
+  border-radius: 20px;
+  background: whitesmoke; 
+  position: relative; 
+  padding: 1.8rem;
+  border: 2px solid yellow;
+  transition: 0.5s ease-out;
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.card-details {
+  color: rgb(0, 0, 0); 
+  text-align: center;
+  transition: 0.5s ease-out;
+}
+
+
+/* add styling to the overlaying infos */
+.card-info-overlay {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #003157;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
+  transition: 0.4s ease-in-out;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+
+.text-title {
+  font-size: 1.4em; 
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+
+.text-body {
+  color: #888;
+  font-size: 0.9em;
+}
+
+
+.card:hover { 
+  border-color: #008bf8;
+  box-shadow: 0 10px 30px rgba(0, 139, 248, 0.3);
+}
+
+.card:hover .card-info-overlay {
+  top: 0; 
+}
+
+
+
+
+.card:hover .card-details {
+  transform: translateY(-50px);
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(185, 185, 185);
+  color: rgb(0, 0, 0);
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* we can now add coding to adjust some of the styling to fit a smartphone's screen  */
+
+@media (max-width: 768px) {
+  
+
+
+    /* add styling to the nav bar */
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  
+
+
+  /* for the continers section, stack the info vertically */
+  .p-container {
+    flex-direction: column !important;
+    height: auto !important;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+
+
+
+
+  /* adjust the image boxes and text boxes for phone screen size */
+  .image-boxx, .text-boxx {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0;
+  }
+
+  .image-boxx img {
+    max-width: 280px !important;
+    height: auto !important;
+    margin-bottom: 20px;
+  }
+
+
+  /* also turn the vertical lines into horizontal */
+  .vertical-linee {
+    width: 60% !important;
+    height: 1px !important;
+    margin: 30px auto;
+  }
+
+
+  /* lower the size of the bigger headings */
+  h1 {
+    font-size: 32px !important;
+    letter-spacing: 4px !important;
+  }
+
+
+  #FISTPAGE {
+    font-size: 45px !important;
+  }
+
+
+
+
+
+
+
+  /* adjust the card width */
+  .card {
+    width: 280px !important;
+    margin: 20px auto;
+  }
+
+
+
+  /* fix paddings for all texts descriptions */
+  .descriptionn, .descriptionb, .descriptionc, .descriptional {
+    padding: 0 15px;
+    font-size: 14px !important;
+    line-height: 1.6;
+  }
+
+  /* and finally make the stats wrap nicely */
+  .stat-roww, .stat-roww2, .stat-roww3, .data-pointz {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
