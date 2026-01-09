@@ -1224,7 +1224,7 @@ footer {
 
 
 
-/* we can now add coding to adjust some of the styling to fit a smartphone's screen  */
+/* we can now add coding to adjust some of the styling to fit a large phone or a tablet(iPad)'s screen  */
 
 @media (max-width: 768px) {
   
@@ -1321,12 +1321,63 @@ footer {
 
 
 
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
 
 
 
 
+/* --- finally we can also adjust it to even further fit smaller phone screen size  --- */
+@media (max-width: 430px) {
+
+
+  #FISTPAGE {
+    font-size: 32px !important;
+    letter-spacing: 2px !important;
+  }
+
+  h1 {
+    font-size: 26px !important;
+  }
+
+  
+  .p-container {
+    padding: 20px 10px !important;
+  }
+
+  
+  .image-boxx img {
+    max-width: 200px !important;
+  }
+
+  
+  nav ul li a {
+    font-size: 14px !important;
+    letter-spacing: 1px !important;
+  }
+
+  
+  .card {
+    width: 250px !important;
+    height: 350px !important;
+  }
+
+  
+  .descriptionn, .descriptionb, .descriptionc, .descriptional {
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+  }
+
+  
+  .space-btn {
+    width: 80% !important;
+    padding: 10px !important;
+    font-size: 12px !important;
+  }
+}
 
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
