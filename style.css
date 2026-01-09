@@ -103,7 +103,7 @@ html {
 /* add the styling for the home section */
 
 #home {
-    background-image: url('/Users/amir/Pictures/Photos Library.photoslibrary/originals/4/4932D256-E8E7-4406-B241-D39097552524.png'); 
+    background-image: url('Homepage.png'); 
     background-size: cover;
     background-position: center;
     color: white; 
@@ -273,7 +273,7 @@ html {
  
     /* add you background image and darken it */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                    url('/Users/amir/Pictures/Photos Library.photoslibrary/originals/F/F1B15E0A-28FA-43E0-8474-524A766858F4.jpeg');
+                    url('Solar Syste.jpg');
   
   /* cover the backgrounf section completely */
   background-size: cover;        
@@ -353,7 +353,7 @@ h1 {
 .oortcloud-section {
   
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                    url('/Users/amir/Pictures/Photos Library.photoslibrary/resources/renders/4/4DAE6940-1436-4735-8A1A-DEE848A0360E_1_201_a.jpeg');
+                    url('oortcloud.jpg');
   
   background-size: cover;        
   background-position: center;   
@@ -431,7 +431,7 @@ h1 {
 .outerspace-section {
   
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                    url('/Users/amir/Pictures/Photos Library.photoslibrary/originals/9/9C481A19-E347-40B7-BDF0-2F54C274B116.jpeg');
+                    url('outerspaceee.jpg');
   
   background-size: cover;        
   background-position: center;   
@@ -505,7 +505,7 @@ h1 {
 .Alphacentauri-section {
   
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                    url('/Users/amir/Pictures/Photos Library.photoslibrary/originals/7/761B4BDA-BC6A-4846-B033-2FAC8A92EFF3.jpeg');
+                    url('alphacen.jpg');
   
   background-size: cover;       
   background-position: center;   
@@ -574,7 +574,7 @@ h1 {
 .Luhman16-section {
  
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                    url('/Users/amir/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/C/C2F3C80D-8CD2-4B2D-9993-A4FEEB40DC27_4_5005_c.jpeg');
+                    url('luhman16.jpg');
   
   background-size: cover;      
   background-position: center;  
@@ -637,7 +637,7 @@ h1 {
 .Wolf359-section {
   
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                    url('/Users/amir/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/A/A1E892D0-EE62-4A7D-9E27-AF8B8F21A959_4_5005_c.jpeg');
+                    url('WOLF 359.jpg');
   
   background-size: cover;        
   background-position: center;  
@@ -698,7 +698,7 @@ h1 {
 .Sirius86-section {
   
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                    url('/Users/amir/Pictures/Photos Library.photoslibrary/resources/renders/6/6ADEA423-0ABF-46E1-A2AC-86F864E413C1_1_201_a.jpeg');
+                    url('Sirus86.jpg');
   
   background-size: cover;        
   background-position: center;   
@@ -758,7 +758,7 @@ h1 {
 .TRAPPIST1-section {
  
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                    url('/Users/amir/Pictures/Photos Library.photoslibrary/originals/5/57CE7A55-5D4E-4C9F-A15D-6E91745E4746.jpeg');
+                    url('TRAPPIST 1.jpg');
   
   background-size: cover;        
   background-position: center;   
@@ -858,7 +858,7 @@ h1 {
 .MILKYWAY-section {
   
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                    url('/Users/amir/Pictures/Photos Library.photoslibrary/originals/3/33095AF4-CEA8-4201-8150-6A3512B3EE2E.jpeg');
+                    url('milky way.jpg');
   
   background-size: cover;       
   background-position: center;   
@@ -923,7 +923,7 @@ h1 {
 .ANDROMEDA-section {
  
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                    url('/Users/amir/Pictures/Photos Library.photoslibrary/originals/4/48CB409A-C89C-4424-90A1-6368F8D11A0B.jpeg');
+                    url('andromeda.jpg');
   
   background-size: cover;        
   background-position: center;   
@@ -1007,7 +1007,7 @@ h1 {
 .theobservableuniverse-section {
   
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                    url('/Users/amir/Pictures/Photos Library.photoslibrary/resources/renders/3/369C1D7C-B390-4192-AAE6-E4E1DE99EE6A_1_201_a.jpeg');
+                    url('universee.jpg');
   
   background-size: cover;       
   background-position: center;   
